@@ -1,1 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+body{
+    height: 600px;
+    width: 1350px;
+    left: -720px;
+    top: -513px;
+    border-radius: 0px;
+    background: linear-gradient(rgb(10, 10, 10), black);
+    font-family: 'Revalia', cursive;
+    color: #E5E5E5;
+    font-size: 2rem;
+}
+#head{
+    position: absolute;
+    top: 100px;
+    left: 500px;
+}
+
+#welcome{
+    position: absolute;
+    top: 150px;
+    left: 500px;
+}
+
+.word{
+    position: absolute;
+    top: 250px;
+    left: 400px;
+    width: 800px;
+
+}
+
+#btn{
+    position: absolute;
+    width: 100px;
+    height: 50px;
+    top: 350px;
+    left: 600px;
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+    font-family: 'Revalia';
+    border-radius: 0px;
+    border-style: ridge;
+    transition: 0.5s;
+}
+
+#btn:hover{
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+}
+.box1{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    left: 20px;
+    top: 20px;
+    border-radius: 0px;
+    background: #E5E5E5;
+}
+
+.box2{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    left: 1250px;
+    top: 20px;
+    border-radius: 0px;
+    background: #E5E5E5;
+}
+
+.box3{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    left: 20px;
+    top: 540px;
+    border-radius: 0px;
+    background: #E5E5E5;
+}   
+
+.box4{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    left: 1250px;
+    top: 540px;
+    border-radius: 0px;
+    background: #E5E5E5;    
+}
+
+.inner-box1{
+    position: absolute;
+    background: black;
+    height: 50px;
+    width: 50px;
+    border: 2px solid white;
+}
+
+.inner-box2{
+    position: absolute;
+    background: black;
+    height: 50px;
+    width: 50px;
+    top: 50px;
+    left: 50px;
+    border: 2px solid white;
+}
+
+/* The switch - the box around the slider */
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+  }
+  
+  /* Hide default HTML checkbox */
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+
+  /* The slider */
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: #2196F3;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
